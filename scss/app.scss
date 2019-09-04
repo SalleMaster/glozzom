@@ -1,0 +1,87 @@
+$primary-color: #007bff;
+
+// BODY
+body {
+  overflow-x: hidden;
+}
+
+// BG-BLACK
+.bg-black {
+  background: #000;
+}
+
+// DARK OVERLAY
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+// NAVBAR
+#main-nav {
+  .nav-item.active {
+    border-left: 3px solid #444;
+  }
+}
+
+// HOME PAGE
+
+// MAIN HEADING
+#main-heading {
+  .carousel-item {
+    min-height: 500px;
+
+    .my-carousel-caption {
+      color: #fff;
+      margin: auto;
+      padding-top: 150px;
+      text-align: center;
+    }
+  }
+
+  .carousel-img-one {
+    background: url(../img/image1.jpg);
+    background-size: cover;
+  }
+
+  .carousel-img-two {
+    background: url(../img/image2.jpg);
+    background-size: cover;
+  }
+
+  .carousel-img-three {
+    background: url(../img/image3.jpg);
+    background-size: cover;
+  }
+}
+
+#home-heading {
+  background: url(../img/lights.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 200px;
+}
+
+//  VIDEO PLAY
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
