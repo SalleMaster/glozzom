@@ -71,3 +71,13 @@ body {
 #video-play a:hover {
   color: #007bff;
 }
+
+#about-heading {
+  background: url(../img/image1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#about-info img {
+  margin-top: -100px;
+}
