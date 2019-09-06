@@ -72,7 +72,8 @@ body {
   color: #007bff;
 }
 
-#about-heading {
+#about-heading,
+#services-heading {
   background: url(../img/image1.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -80,4 +81,13 @@ body {
 
 #about-info img {
   margin-top: -100px;
+}
+
+#services-questions .card {
+  background: #333;
+}
+
+#services-questions .card a {
+  color: #fff;
+  text-decoration: none;
 }

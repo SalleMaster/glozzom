@@ -22,6 +22,9 @@
       integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="css/app.css" />
     <title>Glozzom By Salle</title>
   </head>
@@ -40,10 +43,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mr-3 active">
+            <li class="nav-item mr-3 ">
               <a href="index.html" class="nav-link">Home</a>
             </li>
-            <li class="nav-item mr-3">
+            <li class="nav-item mr-3 active">
               <a href="about.html" class="nav-link">About Us</a>
             </li>
             <li class="nav-item mr-3">
@@ -64,7 +67,7 @@
     <section id="about-heading">
       <div class="container">
         <div class="row">
-          <div class="col text-center text-white py-5">
+          <div class="col-md-6 m-auto text-center text-white py-5">
             <h1>About Us</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
@@ -117,9 +120,8 @@
                 <i class="fas fa-building fa-3x"></i>
                 <h3>Sample Heading</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatibus veniam dolorum laudantium accusantium sed tenetur
-                  reprehenderit quae unde voluptas magni!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit necessitatibus molestias libero. Odit, ad quos.
                 </p>
               </div>
             </div>
@@ -131,9 +133,8 @@
                 <i class="fas fa-bullhorn fa-3x"></i>
                 <h3>Sample Heading</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatibus veniam dolorum laudantium accusantium sed tenetur
-                  reprehenderit quae unde voluptas magni!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit necessitatibus molestias libero. Odit, ad quos.
                 </p>
               </div>
             </div>
@@ -145,9 +146,8 @@
                 <i class="fas fa-comments fa-3x"></i>
                 <h3>Sample Heading</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatibus veniam dolorum laudantium accusantium sed tenetur
-                  reprehenderit quae unde voluptas magni!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit necessitatibus molestias libero. Odit, ad quos.
                 </p>
               </div>
             </div>
@@ -161,9 +161,8 @@
                 <i class="fas fa-box fa-3x"></i>
                 <h3>Sample Heading</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatibus veniam dolorum laudantium accusantium sed tenetur
-                  reprehenderit quae unde voluptas magni!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit necessitatibus molestias libero. Odit, ad quos.
                 </p>
               </div>
             </div>
@@ -175,9 +174,8 @@
                 <i class="fas fa-credit-card fa-3x"></i>
                 <h3>Sample Heading</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatibus veniam dolorum laudantium accusantium sed tenetur
-                  reprehenderit quae unde voluptas magni!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit necessitatibus molestias libero. Odit, ad quos.
                 </p>
               </div>
             </div>
@@ -189,10 +187,58 @@
                 <i class="fas fa-coffee fa-3x"></i>
                 <h3>Sample Heading</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatibus veniam dolorum laudantium accusantium sed tenetur
-                  reprehenderit quae unde voluptas magni!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit necessitatibus molestias libero. Odit, ad quos.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="about-testimonials" class="bg-dark  text-white py-5">
+      <div class="container">
+        <h2 class="text-center">Testimonials</h2>
+        <div class="row text-center">
+          <div class="col">
+            <div class="slider">
+              <div>
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quam, voluptatum.
+                  </p>
+                  <footer class="blockquote-footer">
+                    John Doe From
+                    <cite title="Company 1">Company 1</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div>
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quam, voluptatum.
+                  </p>
+                  <footer class="blockquote-footer">
+                    Sam Smith From
+                    <cite title="Company 2">Company 2</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div>
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quam, voluptatum.
+                  </p>
+                  <footer class="blockquote-footer">
+                    Megan Fox From
+                    <cite title="Company 3">Company 3</cite>
+                  </footer>
+                </blockquote>
               </div>
             </div>
           </div>
@@ -228,6 +274,16 @@
       crossorigin="anonymous"
     ></script>
 
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
     <script>
       // Get the current year for the copyright
       $('#year').text(new Date().getFullYear());
@@ -252,6 +308,13 @@
       $(document).on('click', '[data-toggle="lightbox"]', function(event) {
         event.preventDefault();
         $(this).ekkoLightbox();
+      });
+
+      // Slick Slider
+      $('.slider').slick({
+        infinite: true,
+        slideToShow: 1,
+        slideToScroll: 2
       });
     </script>
   </body>

@@ -88,7 +88,8 @@ body {
 
 // ABOUT PAGE
 // ABOUT HEADING
-#about-heading {
+#about-heading,
+#services-heading {
   background: url(../img/image1.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -98,5 +99,18 @@ body {
 #about-info {
   img {
     margin-top: -100px;
+  }
+}
+
+// SERVICES PAGE
+// Card
+#services-questions {
+  .card {
+    background: #333;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
   }
 }
